@@ -7,6 +7,7 @@ class B extends  Object{
 
     public B(){
         System.out.println("Create B ");
+        System.out.println("这里65");
     }
 
 }
