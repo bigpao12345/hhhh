@@ -18,6 +18,8 @@ class A extends  B{
         System.out.println("Load A");
     }
     public A(){
+
+        super();
         System.out.println("Create A");
     }
 
@@ -28,7 +30,8 @@ public class Test {
 
 
     public static void main(String[] args) {
-        new A();
+        User user = null;
+        user.sayhello();
     }
 
 }
